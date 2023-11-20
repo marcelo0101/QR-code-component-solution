@@ -14,17 +14,16 @@
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
     
 }  
 
 .qrcode {
     background:hsl(0, 0%, 100%);
     margin-top: 40px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 40px;
+    padding: 20px 20px 40px;
     border-radius: 20px;
     width:250px;  
 }
